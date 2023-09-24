@@ -1,8 +1,11 @@
+import { Link } from "react-router-dom";
+import DonationDetails from "../DonationDetails/DonationDetails";
+
 
 
 const Donations = ({item}) => {
     const {id, image, title, category, category_bg_color, card_bg_color, text_color, button_bg_color, description, price } = item
-    console.log(item);
+    // console.log(item);
 
     const bgColor = {
         backgroundColor: card_bg_color
@@ -13,14 +16,19 @@ const Donations = ({item}) => {
     const textColor = {
         color: text_color
     }
-
+    // const handleAddTodetailes = ()={
+        
+    // }
     return (
         <div>
-   <button>
+   <Link to={`/donations/${id}`}> 
+      <button>
+   
 
     <div className=" mt-3 relative flex w-64 flex-col rounded-xl bg-clip-border text-gray-700 shadow-md" style={bgColor}>
   <div className="relative h-56 w-full overflow-hidden rounded-xl  bg-clip-border text-gray-700" style={bgColor}>
     <img
+
       src={image}
       className="h-full w-full object-cover"
     />
@@ -42,6 +50,7 @@ const Donations = ({item}) => {
  
     </div>
     </button>
+    </Link>
 
         </div>
     );
