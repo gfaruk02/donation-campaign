@@ -1,11 +1,14 @@
 import { useLoaderData } from "react-router-dom";
 import Donations from "../Donations/Donations";
+import { useState } from "react";
 
 
 
 const Home = () => {
     const donationsData = useLoaderData();
     // console.log(donationsData);
+    const [searchData, setSearchData] = useState('')
+    const dataFilter = donationsData.filter(item=> item.category.toLowerCase().includes(searchData.toLowerCase()))
     return (
         <div>
         <div className="hero min-h-screen -mt-24" style={{backgroundImage: 'url(https://i.ibb.co/nzQ1w2C/Healthcare-14176.jpg)'}}>
@@ -22,7 +25,10 @@ const Home = () => {
                                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                                 </svg>
                             </div>
-                            <input type="search" id="default-search" className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Mockups, Logos..." required />
+                            <input type="search" id="default-search" className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Mockups, Logos..." required 
+                            value={searchData}
+                            onChange={(e)=>setSearchData(e.target.value)}
+                            />
                             <button type="submit" className="text-white absolute right-1 bottom-1.5 bg-[#FF444A] hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
                         </div>
                     </form>
@@ -33,7 +39,7 @@ const Home = () => {
             </div>
                <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 max-w-6xl mx-auto mt-6"> 
                 {
-                    donationsData?.map(item => <Donations key={item.id} item={item}> </Donations>)
+                    dataFilter?.map(item => <Donations key={item.id} item={item}> </Donations>)
                 }
                </div>
         </div>
