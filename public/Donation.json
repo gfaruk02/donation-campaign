@@ -1,0 +1,153 @@
+[
+    {
+        "id": "1",
+        "image": "https://i.ibb.co/Ph95365/istockphoto-1225476450-612x612.jpg",
+        "title": "Medical Supplies for Health",
+        "category": "Health",
+        "category_bg_color": "rgba(0, 82, 255, 0.20)",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
+        "text_color": "#0052FF",
+        "button_bg_color": "#FF5733",
+        "description": "Support our campaign to provide essential medical supplies to children in need. Your donation can make a difference in their lives.",
+        "price": 50.00
+    },
+    {
+        "id": "2",
+    
+
+        "image": "https://i.ibb.co/swXw24L/ER2-I0629lev-1620x1080.jpg",
+        "title": "Underprivileged Education",
+        "category": "Education",
+        "category_bg_color": "rgba(255, 68, 74, 0.20)",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
+        "text_color": "#FF444A",
+        "button_bg_color": "#FFC300",
+        "description": "Support the education of underprivileged students by contributing to our scholarship fund. Your donation can help change lives through education.",
+        "price": 100.00
+    },
+    {
+        "id": "3",
+     
+        "image": "https://i.ibb.co/BgzXymc/Clothing.png",
+        "title": "Warm Winter Coats",
+        "category": "Clothing",
+        "category_bg_color": "rgba(121, 194, 63, 0.20)",
+        "card_bg_color": "rgba(105, 205, 52, 0.2)",
+        "text_color": "#79C23F",
+        "button_bg_color": "#2E86C1",
+        "description": "Help us keep the homeless warm this winter by donating to provide them with quality winter coats and clothing.",
+        "price": 30.00
+    },
+    {
+        "id": "4",
+        "image": "https://i.ibb.co/gSQMMBF/healthy-food-school-age-childrennarrow.jpg",
+        "title": "Food Assistance Program",
+        "category": "Food",
+        "category_bg_color": "rgba(248, 113, 71, 0.20)",
+        "card_bg_color": "rgba(255, 199, 71, 0.2)",
+        "text_color": "#F87147",
+        "button_bg_color": "#239B56",
+        "description": "Contribute to our food assistance program and help us feed families facing food insecurity. Every dollar you donate helps put food on the table.",
+        "price": 20.00
+    },
+    {
+        "id": "5",
+        "image": "https://i.ibb.co/QDDt6k3/cardart-math-imagine1.jpg",
+        "title": "Library Renovation Project",
+        "category": "Education",
+        "category_bg_color": "rgba(255, 68, 74, 0.20)",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
+        "text_color": "#FF444A",
+        "button_bg_color": "#FFC300",
+        "description": "Contribute to our library renovation project and create a better learning environment for students in underserved areas.",
+        "price": 50.00
+    },
+    {
+        "id": "6",
+        "image": "https://i.ibb.co/LSNmvGj/istockphoto-660779348-612x612.jpg",
+        "title": "Children's Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "rgba(121, 194, 63, 0.20)",
+        "card_bg_color": "rgba(105, 205, 52, 0.2)",
+        "text_color": "#79C23F",
+        "button_bg_color": "#2E86C1",
+        "description": "Support our children's clothing drive and ensure that kids in need have access to warm clothing and essentials.",
+        "price": 25.00
+    },
+    {
+        "id": "7",
+        "image": "https://i.ibb.co/1ZDpCTg/321573371-H.jpg",
+        "title": "Meals for Seniors",
+        "category": "Food",
+        "category_bg_color": "rgba(248, 113, 71, 0.20)",
+        "card_bg_color": "rgba(255, 199, 71, 0.2)",
+        "text_color": "#F87147",
+        "button_bg_color": "#239B56",
+        "description": "Help us provide nutritious meals to seniors in our community. Your donation can improve their quality of life.",
+        "price": 15.00
+    },
+    {
+        "id": "8",
+       
+
+        "image": "https://i.ibb.co/nzQ1w2C/Healthcare-14176.jpg",
+        "title": "Emergency Medical Relief",
+        "category": "Health",
+        "category_bg_color": "rgba(0, 82, 255, 0.20)",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
+        "text_color": "#0052FF",
+        "button_bg_color": "#FF5733",
+        "description": "Donate to our emergency medical relief fund and provide immediate assistance to those in critical medical need.",
+        "price": 75.00
+    },
+    {
+        "id": "9",
+        "image": "https://i.ibb.co/t3HyFcz/asian-female-doctor-with-group-happy-successful-colleagues-709984-8.jpg",
+        "title": "Medical Outreach Program",
+        "category": "Health",
+        "category_bg_color": "rgba(0, 82, 255, 0.20)",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
+        "text_color": "#0052FF",
+        "button_bg_color": "#FF5733",
+        "description": "Support our medical outreach program and provide healthcare services to communities with limited access to medical care.",
+        "price": 60.00
+    },
+    {
+        "id": "10",
+        "image": "https://i.ibb.co/Cs6LL6h/weight-gain-foods-for-kids-scaled.jpg",
+        "title": "Emergency Food Relief",
+        "category": "Food",
+        "category_bg_color": "rgba(248, 113, 71, 0.20)",
+        "card_bg_color": "rgba(255, 199, 71, 0.2)",
+        "text_color": "#F87147",
+        "button_bg_color": "#239B56",
+        "description": "Contribute to our emergency food relief efforts and ensure that no one in our community goes hungry.",
+        "price": 35.00
+    },
+    {
+        "id": "11",
+      
+
+        "image": "https://i.ibb.co/L67z9v6/res62e866ff5129ffdaa5948ed331d51a7dfr.jpg",
+        "title": "Back-to-School Supplies",
+        "category": "Clothing",
+        "category_bg_color": "rgba(121, 194, 63, 0.20)",
+        "card_bg_color": "rgba(105, 205, 52, 0.2)",
+        "text_color": "#79C23F",
+        "button_bg_color": "#2E86C1",
+        "description": "Help students start the school year right by donating school supplies and clothing for their success.",
+        "price": 10.00
+    },
+    {
+        "id": "12",
+        "image": "https://i.ibb.co/qk2xX2m/1920x1920.png",
+        "title": "STEM Education Program",
+        "category": "Education",
+        "category_bg_color": "rgba(255, 68, 74, 0.20)",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
+        "text_color": "#FF444A",
+        "button_bg_color": "#FFC300",
+        "description": "Support our STEM education program and inspire the next generation of scientists, engineers, and innovators.",
+        "price": 45.00
+    }
+]
