@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import DonationDetails from "../DonationDetails/DonationDetails";
+// import DonationDetails from "../DonationDetails/DonationDetails";
 
 
 
 const Donations = ({item}) => {
-    const {id, image, title, category, category_bg_color, card_bg_color, text_color, button_bg_color, description, price } = item
+    const {id, image, title, category, category_bg_color, card_bg_color, text_color, price } = item || {}
     // console.log(item);
 
     const bgColor = {
@@ -16,9 +16,6 @@ const Donations = ({item}) => {
     const textColor = {
         color: text_color
     }
-    // const handleAddTodetailes = ()={
-        
-    // }
     return (
         <div>
    <Link to={`/donations/${id}`}> 
