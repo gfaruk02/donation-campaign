@@ -1,8 +1,23 @@
-# React + Vite
+# Donation Campaign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Question : Add at least 3 Project features
 
-Currently, two official plugins are available:
+Answer : 
+I have used some featured in my Donation Campaign project like 1. View Donations Details, 2. Donate System 3. Donation page is View Donate in single Page 4. Donations Chart. 
+Now i discuss my features working system
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. View Donations Details : First time user come my project then he/she see my donation cards. when user select one donation card then go view donations details page, This page includes essential information such as
+. Image
+. Title about donation
+. Description
+. One button about donate price
+ In our project, the "View Donation Details" feature is a fundamental element that enhances the transparency and user experience of our donation platform. This feature gives users the ability to access comprehensive information about their donations and the impact they are making
+
+ 2. Donate System:
+ Our donate system button in View Donation Details page.The "Donation System" feature simplifies the process of supporting charitable contributions. User see Button with Donate price like [Donate $50.00]. When user click this button then system provide successful alert and save this data and show this Donation page 
+
+3. Donation page is View Donate in single Page:
+This feature provide view how many donate system or  button you select in donation details page for donations.All in one in Donation page .It's single page view but when you click more then 4 cards you see one button with text See All. On clicking the See All button the remaining all cards will be shown. 
+
+4. Donations Chart:
+This featued show in Statistics page.It's pie chart about user donations. This chart provide two data 1. Total Donation aand, 2. Your Donation

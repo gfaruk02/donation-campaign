@@ -23,15 +23,15 @@ const Details = () => {
         if(!donateItem){
             addDonations.push(donate)
             localStorage.setItem('donate', JSON.stringify(addDonations))
-            swal("Good job!", "You donation Added!", "success");
+            swal("Good job!", "Your donation Added!", "success");
         }else{
             const isExists = donateItem.find(donate=>donate.id === id)
             if(!isExists){
                 addDonations.push(...donateItem,donate)
             localStorage.setItem('donate', JSON.stringify(addDonations))
-            swal("Good job!", "You donation Added!", "success");
+            swal("Good job!", "Your donation Added!", "success");
             }else{
-                swal("Erron!", "No Duplicate. already added", "error");
+                swal("Erron!", "Already added Your donation", "error");
             }
             
         }
@@ -40,7 +40,7 @@ const Details = () => {
         <div className="max-w-6xl mx-auto pb-10" >
             <div className=" relative">
             <img className="h-screen w-full" src={donate.image} alt="" />
-            <div className="hero-overlay absolute h-24 bg-gray-500 bg-opacity-90 -mt-24"> 
+            <div className="hero-overlay absolute h-24 bg-gray-500 bg-opacity-90 bottom-0 left-0"> 
                 <button onClick={handleToDonate} style={styles} className=" mt-7 ml-7 text-white rounded-md px-4 py-2"> 
                 Donate $ {donate.price}
                 </button>

@@ -18,7 +18,7 @@ const CustomizedPieChart = () => {
     },[])
     // console.log(value);
     const items = (donations.length);
-    console.log(items);
+    // console.log(items);
     const total = 12-items;
     const data = [
       { name: 'Total Donation', value: total },
