@@ -20,4 +20,4 @@ Now i discuss my features working system
 This feature provide view how many donate system or  button you select in donation details page for donations.All in one in Donation page .It's single page view but when you click more then 4 cards you see one button with text See All. On clicking the See All button the remaining all cards will be shown. 
 
 4. Donations Chart:
-This featued show in Statistics page.It's pie chart about user donations. This chart provide two data 1. Total Donation aand, 2. Your Donation
+This featued show in Statistics page.It's pie chart about user donations data.The feature is a visual representation tool that provides users with a clear and insightful view of her donation history. This chart provide two data 1. Total Donation and, 2. Your Donation .Users can access their complete donation history within the system. The Donations Chart retrieves this historical data and converts it into visually meaningful representations.

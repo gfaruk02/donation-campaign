@@ -18,7 +18,7 @@ const CustomizedPieChart = () => {
     },[])
     // console.log(value);
     const items = (donations.length);
-    // console.log(items);
+    // console.log(items); 
     const total = 12-items;
     const data = [
       { name: 'Total Donation', value: total },
@@ -50,12 +50,9 @@ const CustomizedPieChart = () => {
         );
       };
     // console.log(val);
-    // const val = parseInt(donations.length);
-   
 
 
-
-const COLORS = ['#0088FE', '#00C49F'];
+const COLORS = ['#75bcfa', '#fa4de0'];
   return (
     <div> {
       noData? <p className="text-center pt-32 font-bold text-2xl"> {noData} </p> :
@@ -84,45 +81,3 @@ const COLORS = ['#0088FE', '#00C49F'];
 };
 
 export default CustomizedPieChart;
-
-
-
-// import { PieChart, Pie, Cell, ResponsiveContainer, Legend } from 'recharts';
-
-// const CustomizedPieChart = () => {
-//   const totalValue = 12 ; // Total value
-//   const yourValue =12 ; // Your value
-
-//   // Calculate the percentage for yourValue relative to totalValue
-//   // const yourPercentage = (totalValue - yourValue);
-
-//   const data = [
-//     { name: 'Total Donation', value: totalValue },
-//     { name: 'Your Donation', value: yourValue },
-//   ];
-
-//   const COLORS = ['#0088FE', '#00C49F'];
-
-//   return (
-//     <ResponsiveContainer width="100%" height={400}>
-//       <PieChart>
-//         <Pie
-//           data={data}
-//           cx="50%"
-//           cy="50%"
-//           labelLine={false} // Disable label lines
-//           outerRadius="80%" // Increase the outer radius to make the chart 100%
-//           fill="#8884d8"
-//           dataKey="value"
-//         >
-//           {data.map((entry, index) => (
-//             <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-//           ))}
-//         </Pie>
-//         <Legend />
-//       </PieChart>
-//     </ResponsiveContainer>
-//   );
-// };
-
-// export default CustomizedPieChart;

@@ -12,8 +12,7 @@ const Donation = () => {
             setDonations(donateItems)
         }else{
             setNoData('Please go Home and Select Donations');
-        }
-        
+        }     
     },[])
     return (
         <div>{
