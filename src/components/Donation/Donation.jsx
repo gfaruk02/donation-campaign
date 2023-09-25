@@ -11,13 +11,13 @@ const Donation = () => {
         if(donateItems){
             setDonations(donateItems)
         }else{
-            setNoData('Please go Home and Select Donation');
+            setNoData('Please go Home and Select Donations');
         }
         
     },[])
     return (
         <div>{
-            noData? <p className="text-center pt-32 font-bold text-2xl"> {noData} </p> :
+            noData? <p className="text-center pt-32 font-bold text-xl lg:text-2xl"> {noData} </p> :
             <div className=" max-w-6xl mx-auto"> 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-5" >
             {
