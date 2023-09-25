@@ -1,7 +1,4 @@
 import { Link } from "react-router-dom";
-// import DonationDetails from "../DonationDetails/DonationDetails";
-
-
 
 const Donations = ({item}) => {
     const {id, image, title, category, category_bg_color, card_bg_color, text_color, price } = item || {}
@@ -35,7 +32,7 @@ const Donations = ({item}) => {
       <p className="block text-base font-medium leading-relaxed text-blue-gray-900 antialiased py-1 px-3 rounded-md" style={bgCategoryColor}>
         {category}
       </p>
-      <p className="block text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+      <p className="block text-base font-semibold leading-relaxed  text-blue-gray-900 antialiased">
        Price : $ {price}
       </p>
     </div>

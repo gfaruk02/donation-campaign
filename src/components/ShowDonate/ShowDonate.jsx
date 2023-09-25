@@ -29,16 +29,16 @@ const ShowDonate = ({donate}) => {
     <h6 className="block w-24 text-base font-medium leading-relaxed text-blue-gray-900 antialiased py-1 px-2 rounded-md text-center" style={bgCategoryColor}>
       <span style={textColor}> {category} </span>
     </h6>
-    <h4 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased pt-3">
+    <h4 className="mb-2 block text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased pt-3">
       {title}
     </h4>
-    <p className="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased" style={textColor}>
+    <p className="mb-8 block text-base font-semibold leading-relaxed text-[#0B0B0B] antialiased" style={textColor}>
       ${price}.00
     </p>
      <button className="py-2 px-3 rounded-lg text-white font-semibold" type="button" style={bgButton}> View Details </button>
   </div>
 </div>
-        </div>
+</div>
     );
 };
 
