@@ -1,7 +1,7 @@
 
 const ShowDonate = ({donate}) => {
     // console.log(donate);
-    const {id, image, title, category, category_bg_color, card_bg_color, text_color, button_bg_color, description, price } = donate || {}
+    const {id, image, title, category, category_bg_color, card_bg_color, text_color, price } = donate || {}
     const bgColor = {
         backgroundColor: card_bg_color
     }

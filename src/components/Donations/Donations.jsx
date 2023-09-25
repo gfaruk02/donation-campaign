@@ -22,7 +22,7 @@ const Donations = ({item}) => {
       <button>
    
 
-    <div className=" mt-3 relative flex w-64 flex-col rounded-xl bg-clip-border text-gray-700 shadow-md" style={bgColor}>
+    <div className=" mt-3 relative flex w-96 lg:w-64 flex-col rounded-xl bg-clip-border text-gray-700 shadow-md px-2 lg:px-0" style={bgColor}>
   <div className="relative h-56 w-full overflow-hidden rounded-xl  bg-clip-border text-gray-700" style={bgColor}>
     <img
 

@@ -37,7 +37,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-               <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 max-w-6xl mx-auto mt-6"> 
+               <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-3 max-w-6xl pl-4 md:pl-0 mx-auto mt-6"> 
                 {
                     dataFilter?.map(item => <Donations key={item.id} item={item}> </Donations>)
                 }

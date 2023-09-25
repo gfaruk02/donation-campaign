@@ -23,13 +23,13 @@ const Details = () => {
         if(!donateItem){
             addDonations.push(donate)
             localStorage.setItem('donate', JSON.stringify(addDonations))
-            swal("Good job!", "You Phone Added!", "success");
+            swal("Good job!", "You donation Added!", "success");
         }else{
             const isExists = donateItem.find(donate=>donate.id === id)
             if(!isExists){
                 addDonations.push(...donateItem,donate)
             localStorage.setItem('donate', JSON.stringify(addDonations))
-            swal("Good job!", "You donate Added!", "success");
+            swal("Good job!", "You donation Added!", "success");
             }else{
                 swal("Erron!", "No Duplicate. already added", "error");
             }
