@@ -7,34 +7,28 @@
         "category_bg_color": "rgba(0, 82, 255, 0.20)",
         "card_bg_color": "rgba(0, 82, 255, 0.15)",
         "text_color": "#0052FF",
-        "button_bg_color": "#FF5733",
         "description": "Support our campaign to provide essential medical supplies to children in need. Your donation can make a difference in their lives.When it comes to treatment, care, and management for chronic illnesses, it’s important to find the best possible medical supplies to help you feel your best. Diabetes can be a difficult condition to live with and manage, which is why finding and using the best products for your needs at prices that won’t break the bank is key. At National Diabetic Supply, we’ve got what you need for great care at easy prices. Diabetes is an illness that affects the body’s ability to regulate glucose, or blood sugar. Whether you’ve been living with Type 1 diabetes since you were a child, you’re a parent helping to manage your child’s diabetes, or you’ve developed Type 2 diabetes yourself, it’s important to use products and medical supplies you trust to prevent the negative effects of poor blood sugar management. At National Diabetic Supply, we’re here to help! We carry the best products and supplies at affordable prices so quality management and care doesn’t have to be a struggle.",
         "price": 50.00
     },
     {
         "id": "2",
-    
-
         "image": "https://i.ibb.co/swXw24L/ER2-I0629lev-1620x1080.jpg",
         "title": "Underprivileged Education",
         "category": "Education",
         "category_bg_color": "rgba(255, 68, 74, 0.20)",
         "card_bg_color": "rgba(255, 68, 74, 0.15)",
         "text_color": "#FF444A",
-        "button_bg_color": "#FFC300",
         "description": "This project will work towards breaking the cycle of poverty through international standard education to the underprivileged children of Bangladesh. In our endeavor, we are now running eight schools successfully throughout the country with around 1400 impoverished children. We aspire to establish a school in each of the 64 districts of Bangladesh to uproot illiteracy from our society through spreading the light of education in every nook and corner of our country.This project will provide international standard Free-of-Cost education to the underprivileged children. Through this project, we will help the children become skilled labors as they grow up bringing positive changes in their families and communities alleviating poverty ",
         "price": 100.00
     },
     {
         "id": "3",
-     
         "image": "https://i.ibb.co/BgzXymc/Clothing.png",
         "title": "Warm Winter Coats",
         "category": "Clothing",
         "category_bg_color": "rgba(121, 194, 63, 0.20)",
         "card_bg_color": "rgba(105, 205, 52, 0.2)",
         "text_color": "#79C23F",
-        "button_bg_color": "#2E86C1",
         "description": "Help us keep the homeless warm this winter by donating to provide them with quality winter coats and clothing.Coat Drive Ambassadors: Scroll down to view a map of nonprofit partners across the country, search by zip code to find a partner near you where you can deliver the coats collected during your coat drive.",
         "price": 30.00
     },
@@ -46,7 +40,6 @@
         "category_bg_color": "rgba(248, 113, 71, 0.20)",
         "card_bg_color": "rgba(255, 199, 71, 0.2)",
         "text_color": "#F87147",
-        "button_bg_color": "#239B56",
         "description": "Contribute to our food assistance program and help us feed families facing food insecurity. Every dollar you donate helps put food on the table.",
         "price": 20.00
     },
@@ -58,19 +51,17 @@
         "category_bg_color": "rgba(255, 68, 74, 0.20)",
         "card_bg_color": "rgba(255, 68, 74, 0.15)",
         "text_color": "#FF444A",
-        "button_bg_color": "#FFC300",
         "description": "There are multiple expenses when it comes to quality education. Students have to pay for college/university fees, tuition fees, and even signups for extra classes. Aside from tuition, qualified education expenses also include other costs such as room rents, transportation, and non-essential fees. This is why crowdfunding for education expenses can lessen the burden on students, For organizations, education crowdfunding can cover university or school infrastructures, teachers salaries, food distribution, and more.",
         "price": 50.00
     },
     {
         "id": "6",
-        "image": "https://i.ibb.co/LSNmvGj/istockphoto-660779348-612x612.jpg",
+        "image": "https://i.ibb.co/nbRPyS3/IMG-8850.jpg",
         "title": "Children's Clothing Drive",
         "category": "Clothing",
         "category_bg_color": "rgba(121, 194, 63, 0.20)",
         "card_bg_color": "rgba(105, 205, 52, 0.2)",
         "text_color": "#79C23F",
-        "button_bg_color": "#2E86C1",
         "description": "Support our children's clothing drive and ensure that kids in need have access to warm clothing and essentials.Through awareness raising, education and child protection, we work with local communities to empower and secure the rights of vulnerable people in West Bengal, India. While we cannot help everybody, our belief is that everybody can help some – and you can make a difference to the more than 3,000 individuals we support through our projects.When you support our work, you also contribute to the United Nations Sustainable Development Goals (SDGs). ",
         "price": 25.00
     },
@@ -82,33 +73,28 @@
         "category_bg_color": "rgba(248, 113, 71, 0.20)",
         "card_bg_color": "rgba(255, 199, 71, 0.2)",
         "text_color": "#F87147",
-        "button_bg_color": "#239B56",
         "description": "Help us provide nutritious meals to seniors in our community. Your donation can improve their quality of life.Help your community discover tasty learning for life with our nom! programs. Delivered by nutritionists, we work with a range of groups to develop their skills and knowledge to support healthy eating. We make it easy for everyone to plan, select and cook healthy and tasty recipes. Groups learn about the Australian Guide to Healthy Eating, get meal prep ideas and cook tasty recipes and much more.",
         "price": 15.00
     },
     {
         "id": "8",
-       
-
         "image": "https://i.ibb.co/nzQ1w2C/Healthcare-14176.jpg",
         "title": "Emergency Medical Relief",
         "category": "Health",
         "category_bg_color": "rgba(0, 82, 255, 0.20)",
         "card_bg_color": "rgba(0, 82, 255, 0.15)",
         "text_color": "#0052FF",
-        "button_bg_color": "#FF5733",
         "description": "Donate to our emergency medical relief fund and provide immediate assistance to those in critical medical need. We support humanitarian organizations to respond effectively to the needs of people caught in crises, to understand and analyse their needs, and to mobilize international assistance. We provide tools and services to help humanitarian organizations ensure that no one affected by a crisis is left behind. We alert and inform humanitarian organizations in times of crisis. We collect, analyse and share data to help aid organizations understand and navigate the complex challenges they face when helping people. We ensure humanitarian organizations have the funds and resources they need to respond during emergencies. We raise awareness and understanding of people’s needs through our annual Global Humanitarian Overview, and we mobilize funding and resources to ensure those needs are met.",
         "price": 75.00
     },
     {
         "id": "9",
-        "image": "https://i.ibb.co/t3HyFcz/asian-female-doctor-with-group-happy-successful-colleagues-709984-8.jpg",
+        "image": "https://i.ibb.co/vmFFpHx/newsphoto11.jpg",
         "title": "Medical Outreach Program",
         "category": "Health",
         "category_bg_color": "rgba(0, 82, 255, 0.20)",
         "card_bg_color": "rgba(0, 82, 255, 0.15)",
         "text_color": "#0052FF",
-        "button_bg_color": "#FF5733",
         "description": "Support our medical outreach program and provide healthcare services to communities with limited access to medical care. As the increase of people living unsheltered drives the overall rise in homelessness, providers increasingly understand that their services must be accessible wherever their clients reside. We must meet people where they are, including indoor locations like soup kitchens, shelters, and libraries, in addition to outdoor locations like encampments, wooded areas, and sidewalks. But how do you get clinical services out there?. Medical outreach comprises a continuum of service delivery methods. On one end is street medicine, otherwise known as backpack medicine (especially in communities where outdoor homelessness is hardly urban), which is direct care for people living unsheltered in the place where they reside.",
         "price": 60.00
     },
@@ -120,21 +106,17 @@
         "category_bg_color": "rgba(248, 113, 71, 0.20)",
         "card_bg_color": "rgba(255, 199, 71, 0.2)",
         "text_color": "#F87147",
-        "button_bg_color": "#239B56",
         "description": "Contribute to our emergency food relief efforts and ensure that no one in our community goes hungry. Enough food exists in the world to feed everyone, yet people still suffer from food insecurity. According to the United Nations, wealthy nations waste almost as much food (222 million tons) as all countries in sub-Saharan Africa produce (230 million tons) each year. According to the National Resource Defense Council, each American household throws away $2,200 worth of food each year on average. The problem isn’t food — it’s poverty, war and access.As an international humanitarian aid organization, Baitulmaal matches its donors’ compassion with the needs of those struggling with hunger. We believe that every person has the right to nutritious food regardless of their economic or political situation. This belief drives us to provide hunger relief to those in need around the world.",
         "price": 35.00
     },
     {
         "id": "11",
-      
-
-        "image": "https://i.ibb.co/L67z9v6/res62e866ff5129ffdaa5948ed331d51a7dfr.jpg",
+        "image": "https://i.ibb.co/2cfTnv6/istockphoto-1338735375-612x612.jpg",
         "title": "Back-to-School Supplies",
         "category": "Clothing",
         "category_bg_color": "rgba(121, 194, 63, 0.20)",
         "card_bg_color": "rgba(105, 205, 52, 0.2)",
         "text_color": "#79C23F",
-        "button_bg_color": "#2E86C1",
         "description": "Help students start the school year right by donating school supplies and clothing for their success.The World Top 20 Project Education Network represents local nonprofit organizations from around the world that have joined NJ MED’s mission to Educate Every Child on the Planet. NJ MED supports the organizations promotional and logistically through various programmes, in linking them with other NGOs. However they also have obligations. As members of NJ MED’s World Top 20 Project Education Network in their countries, they must respect the statutes, aims and ideals of International human rights law and promote and manage the World Top 20 Project’s mission accordingly.",
         "price": 10.00
     },
@@ -146,7 +128,6 @@
         "category_bg_color": "rgba(255, 68, 74, 0.20)",
         "card_bg_color": "rgba(255, 68, 74, 0.15)",
         "text_color": "#FF444A",
-        "button_bg_color": "#FFC300",
         "description": "Support our STEM education program and inspire the next generation of scientists, engineers, and innovators.Your donation will be used to purchase materials and develop activities for our local and international programs. Give children around the world the knowledge, confidence, and inspiration to follow their passion for science technology engineering and math!",
         "price": 45.00
     }
