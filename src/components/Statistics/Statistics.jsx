@@ -45,14 +45,14 @@ const CustomizedPieChart = () => {
             textAnchor={x > cx ? 'start' : 'end'}
             dominantBaseline="central"
           >
-            {`${(percent * 100).toFixed(0)}%`}
+            {`${(percent * 100).toFixed(1)}%`}
           </text>
         );
       };
     // console.log(val);
 
 
-const COLORS = ['#75bcfa', '#fa4de0'];
+const COLORS = ['#fa4de0','#1aaba4'];
   return (
     <div> {
       noData? <p className="text-center pt-32 font-bold text-2xl"> {noData} </p> :
@@ -64,7 +64,7 @@ const COLORS = ['#75bcfa', '#fa4de0'];
           cy="50%"
           labelLine={false}
           label={renderCustomizedLabel}
-          outerRadius={80}
+          outerRadius={100}
           fill="#8884d8"
           dataKey="value"
         >
