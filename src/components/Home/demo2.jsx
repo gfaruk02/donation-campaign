@@ -1,32 +1,33 @@
-import { useEffect, useState } from "react";
 
+import React, { useState } from "react";
+import { useLoaderData } from "react-router-dom";
+import Donations from "../Donations/Donations";
 
-const Banner = () => {
-    const [donationsData, setDonationsData] = useState([]);
-    const [donationsItem, setDonationsItem] = useState('')
-    const [searchData, setSearchData] = useState(donationsData);
-// console.log(donationsData);
-    useEffect(() => {
-        fetch('/Donation.json')
-            .then(res => res.json())
-            .then(data => {
-                setDonationsData(data);
-            })
-    }, [])
+const Home = () => {
+  const donationsData = useLoaderData();
+  const [donationsItem, setDonationsItem] = useState("");
+  const [searchData, setSearchData] = useState(donationsData);
 
-    // console.log(searchData);
-
-    const handleSearch = (e) => {
-        
-        const dataFilter = donationsData.filter((item) => item.category.toLowerCase().includes(donationsItem.toLowerCase()));
-        setSearchData(dataFilter);
-        e.preventDefault()
-
+  const handleSearch = (e) => {
+    if (e) {
+      const dataFilter = donationsData.filter((item) =>
+        item.category.toLowerCase().includes(donationsItem.toLowerCase())
+      );
+      setSearchData(dataFilter);
+      e.preventDefault();
+    } else {
+      // Handle the case when you want to show all data
+      setSearchData(donationsData);
     }
+  };
 
-    return (
-        <div>
-            <div className="hero min-h-screen -mt-24" style={{ backgroundImage: 'url(https://i.ibb.co/nzQ1w2C/Healthcare-14176.jpg)' }}>
+  const resetSearch = () => {
+    setSearchData(donationsData);
+  };
+
+  return (
+    <div>
+      <div className="hero min-h-screen -mt-24" style={{ backgroundImage: 'url(https://i.ibb.co/nzQ1w2C/Healthcare-14176.jpg)' }}>
                 <div className="hero-overlay bg-white bg-opacity-90 "></div>
                 <div className="hero-content  text-neutral-content">
                     <div className=" text-[#0B0B0B]">
@@ -47,16 +48,21 @@ const Banner = () => {
                                 <button onClick={handleSearch} type="submit" className="text-white absolute right-1 bottom-1.5 bg-[#FF444A] hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" >Search</button>
                             </div>
                         </form>
+
+
                     </div>
                 </div>
             </div>
-            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-3 max-w-6xl pl-4 md:pl-0 mx-auto mt-6 pb-10">
+
+      <button onClick={resetSearch}>Load All Data</button>
+
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-3 max-w-6xl pl-4 md:pl-0 mx-auto mt-6 pb-10">
                 {
                     searchData?.map(item => <Donations key={item.id} item={item}> </Donations>)
                 }
-            </div> 
-        </div>
-    );
+            </div>
+    </div>
+  );
 };
 
-export default Banner;
+export default Home;

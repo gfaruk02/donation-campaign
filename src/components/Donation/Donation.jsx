@@ -29,7 +29,7 @@ const Donation = () => {
                 donations.length > 4 &&  <button
                 onClick={()=>setShowDonation(!showDonation)}
                className={`show-button ${showDonation ? 'hidden' : 'visible'}`} >
-                <span className="px-5 py-3 rounded-lg mt-5 bg-green-300 block mx-auto"> Show All</span>
+                <span className="px-5 py-3 rounded-lg mt-5 bg-[#009444] block mx-auto text-white font-semibold text-base"> See All</span>
                 </button>
               }
            </div>
