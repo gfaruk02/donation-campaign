@@ -13,6 +13,7 @@ const Home = () => {
         const dataFilter = donationsData.filter((item) => item.category.toLowerCase().includes(donationsItem.toLowerCase()));
         setSearchData(dataFilter);
         e.preventDefault()
+        setDonationsItem('');
     }
     return (
         <div>
@@ -38,7 +39,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-3 max-w-6xl pl-4 md:pl-0 mx-auto mt-6 pb-10">
+            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-3 max-w-6xl mx-auto mt-6 pb-10 pl-5 md:pl-2 ">
                 {
                     searchData?.map(item => <Donations key={item.id} item={item}> </Donations>)
                 }

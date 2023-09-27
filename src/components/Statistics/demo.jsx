@@ -1,8 +1,7 @@
-import React from 'react';
 import { useEffect, useState } from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Legend } from 'recharts';
 
-const Statistics = () => {
+const CustomizedPieChart = () => {
   const [donations, setDonations] = useState([])
   useEffect(() => {
     const donateItems = JSON.parse(localStorage.getItem('donate'))
@@ -68,4 +67,4 @@ const Statistics = () => {
   );
 };
 
-export default Statistics;
+export default CustomizedPieChart;
